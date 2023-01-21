@@ -41,7 +41,7 @@ img{
     font-size: 1.4rem;
 }
 
-
+/*editando index para varios dispositivos*/
 /*query mobile*/
 .caja-padre{
     display: flex;
@@ -71,7 +71,7 @@ img{
 
 .caja-botones{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 5rem;
     justify-content: center;
 }
@@ -116,6 +116,33 @@ span{
     border-radius: 50px;
     color: white;
 }*/
+
+
+/*tablets 768px*/
+
+
+@media (min-width: 768px) {
+    
+
+    .imagen-hijo{
+        width: 35rem;
+    }
+    .caja-hijo__titulo{
+        font-size: 1.6rem;
+    }
+    
+    .caja-hijo__parrafo{
+        font-size: 1.4rem;
+    }
+
+    footer p{
+        font-size: 1.6rem;
+    }
+
+    
+}
+
+
 
 
 
