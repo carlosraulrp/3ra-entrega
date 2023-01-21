@@ -21,12 +21,8 @@ img{
     height: 100vh;
 }
 
-header{
-    display: flex;
-    justify-content:space-around;
-    margin-top: 3rem;
-    
-}
+
+
 
 .logo{
     text-decoration: none;
@@ -36,35 +32,26 @@ header{
     letter-spacing: 2px;
 }
 
-.navegacion{
-    display: flex;
-    gap: 3rem;
+/*editando barra nav*/
+
+.navbar-brand{
+    font-size: 1.8rem;
+}
+.nav-item a{
+    font-size: 1.4rem;
 }
 
-.navegacion li{
-    list-style: none;
-}
 
-.navegacion li a{
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #000;
-}
-
-.navegacion li a:hover{
-    background-color: #000;
-    color: #fff;
-    border-radius: 5px;
-}
-
+/*query mobile*/
 .caja-padre{
     display: flex;
-    justify-content: center;
-    margin-top: 5rem;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .imagen-hijo{
-    width: 50rem;
+    width: 20rem;
 }
 
 .caja-hijo{
@@ -75,7 +62,7 @@ header{
 }
 
 .caja-hijo__titulo{
-    font-size: 4rem;
+    font-size: 1.4rem;
 }
 
 .caja-hijo__parrafo{
@@ -84,6 +71,7 @@ header{
 
 .caja-botones{
     display: flex;
+    flex-direction: column;
     gap: 5rem;
     justify-content: center;
 }
