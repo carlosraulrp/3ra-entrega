@@ -16,7 +16,7 @@ img{
 
 }
 
-#body-principal{
+body{
     background-color:#C9D2D2;
     height: 100vh;
 }
@@ -112,10 +112,11 @@ img{
 
 span{
 
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 20px;
+    
 }
-/*.fb{
+.fb{
     background-color: rgb(40, 40, 181);
     padding: 8px;
     border-radius: 50px;
@@ -134,7 +135,7 @@ span{
     padding: 8px;
     border-radius: 50px;
     color: white;
-}*/
+}
 
 
 /*tablets 768px*/
@@ -160,6 +161,48 @@ span{
 
     
 }
+
+/*editando otras paginas*/
+/*Editando pagina nuestras marcas*/
+
+
+.imagen-barra img{
+    width: 100%;
+    height: 200px;
+    opacity: 0.4;
+}
+
+.titulo-marcas{
+    font-size: 2rem;
+}
+
+.caja-marcas img{
+    width: 30rem;
+    height: 20rem;
+}
+
+.caja-marcas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+@media (min-width: 768px){
+    .caja-marcas{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (min-width: 1024px){
+    .caja-marcas{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
 
 
 
