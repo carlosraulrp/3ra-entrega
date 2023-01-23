@@ -88,6 +88,25 @@ img{
     color: #000;
 }
 
+/*carrusel*/
+
+#carouselExampleAutoplaying{
+    width: 400px;
+    max-width: 100%;
+}
+
+.carousel-inner img{
+
+    border-radius: 50%;
+}
+
+/*seccion 1*/
+
+#seccion1 p{
+    font-size: 1.5rem;
+    
+}
+
 
 /*footer*/
 
