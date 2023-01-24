@@ -50,6 +50,16 @@ body{
     
 }
 
+@media (min-width: 1024px){
+    .caja-padre{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+        
+    }
+}
+
 .imagen-hijo{
     width: 20rem;
 }
@@ -77,7 +87,8 @@ body{
 }
 
 .boton{
-    width: 15rem;
+    width: 25rem;
+    height: 5rem;
     background-color: #000;
     color: #fff;
     border-radius: 10px;
@@ -201,6 +212,59 @@ span{
         display: grid;
         grid-template-columns: repeat(3,1fr);
     }
+}
+
+/*Editando pagina alimentos*/
+
+.seccion-alimentos p, li{
+    font-size: 1.4rem;
+
+}
+
+.caja-alimentos-padre{
+    display: flex;
+    
+    
+    gap: 3rem;
+
+}
+
+/*Editando pagina otros*/
+
+#seccion-otros h3{
+    font-size: 1.8rem;
+    font-family: Fredoka One;
+
+}
+
+#seccion-otros p, li{
+
+    font-size: 1.4rem;
+    
+
+}
+
+
+
+@media (max-width: 500px){
+    .seccion-otros__imagen{
+       display: none;
+    
+    
+        
+    }
+}
+
+
+.seccion-otros__imagen{
+    width: 90%;
+    height: 200px;
+    
+    margin-left: 3rem;
+    border-radius: 5%;
+
+
+    
 }
 
 
