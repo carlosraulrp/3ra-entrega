@@ -335,6 +335,77 @@ span{
     }
 }
 
+/*Editando galeria*/
+
+
+.hijo-galeria__titulo{
+    padding: 15px;
+}
+
+
+
+
+
+.hijo-galeria__fotos{
+    height: 25rem;
+    width: 35rem;
+    border: 1rem solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.hijo-galeria__fotos img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+
+}
+
+.hijo-galeria__fotos:hover img{
+    transform: scale(1.1);
+}
+
+
+
+.padre-galeria__fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        
+}
+        
+
+
+@media(min-width:768px){
+    .padre-galeria__fotos{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1200px){
+
+    .padre-galeria__fotos{
+        
+        grid-template-columns: repeat(4,1fr);
+        
+        
+    }
+
+
+
+}
+
+
+
 
 
 
