@@ -1,0 +1,98 @@
+/*header*/
+.navbar-brand{
+    font-size: 1.8rem;
+}
+
+.nav-item{
+    a{
+        font-size: 1.4rem;
+    }
+}
+
+header{
+    ul{
+        li{
+            a:hover{
+                background-color: #fff;
+                padding: 5px;
+                transition:.5s;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+
+/*editando index para varios dispositivos*/
+/*query mobile*/
+.caja-padre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+@media (min-width: 1024px){
+    .caja-padre{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+        
+    }
+}
+
+.imagen-hijo{
+    width: 40rem;
+}
+
+.caja-hijo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.caja-hijo__titulo{
+    font-size: 1.8rem;
+}
+
+.caja-hijo__parrafo{
+    font-size: 1.5rem;
+}
+
+.caja-botones{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.boton{
+    
+    width:13rem ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.boton:hover{
+    background-color:#fff;
+    border: 2px solid  #000;
+    color: #000;
+}
+
+/*carrusel*/
+
+#carouselExampleAutoplaying{
+    width: 400px;
+    max-width: 100%;
+}
+
+
+
+
