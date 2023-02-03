@@ -8,7 +8,7 @@
         font-size: 1.4rem;
     }
 }
-
+/*Editando la barra de navegacion*/
 #navbarSupportedContent{
     ul{
         li{
@@ -56,11 +56,11 @@
 }
 
 .caja-hijo__titulo{
-    font-size: 1.8rem;
+    font-size: $size-titulos;
 }
 
 .caja-hijo__parrafo{
-    font-size: 1.5rem;
+    font-size:$size-parrafo;
 }
 
 .caja-botones{
@@ -93,16 +93,27 @@
 #carouselExampleAutoplaying{
     width: 400px;
     max-width: 100%;
+    background-color: lightslategray;
+    border: solid 3px $borde-carousel;
+    border-radius: 25px;
+
+    img{
+        border-radius: 40%;
+    }
  
 }
 
 
 /*seccion 1*/
 
-#seccion1 p{
-    font-size: 1.5rem;
-    
+#seccion1{
+    p{
+        font-size: $size-parrafo;
+    }
 }
+    
+    
+
 
 /*footer*/
 

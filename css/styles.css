@@ -1,3 +1,4 @@
+/*mixin para las marcas*/
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,11 @@
 html {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #C9D2D2;
+  height: 100vh;
 }
 
 img {
@@ -29,6 +35,7 @@ img {
   font-size: 1.4rem;
 }
 
+/*Editando la barra de navegacion*/
 #navbarSupportedContent ul li a:hover {
   background-color: #000;
   color: #fff;
@@ -64,11 +71,11 @@ img {
 }
 
 .caja-hijo__titulo {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .caja-hijo__parrafo {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .caja-botones {
@@ -99,11 +106,17 @@ img {
 #carouselExampleAutoplaying {
   width: 400px;
   max-width: 100%;
+  background-color: lightslategray;
+  border: solid 3px lightpink;
+  border-radius: 25px;
+}
+#carouselExampleAutoplaying img {
+  border-radius: 40%;
 }
 
 /*seccion 1*/
 #seccion1 p {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 /*footer*/
@@ -131,6 +144,96 @@ span {
   padding: 8px;
   border-radius: 50px;
   color: white;
+}
+
+.imagen-barra img {
+  width: 100%;
+  height: 200px;
+  opacity: 0.4;
+}
+
+.titulo-marcas {
+  font-size: 2rem;
+}
+
+.caja-marcas img {
+  width: 30rem;
+  height: 20rem;
+  border-radius: 20px;
+}
+
+.caja-marcas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  .caja-marcas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .caja-marcas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.seccion-alimentos p {
+  font-size: 1.6rem;
+}
+.seccion-alimentos li {
+  font-size: 1.4rem;
+}
+
+.caja-alimentos-padre {
+  display: flex;
+  gap: 3rem;
+}
+
+#seccion-otros {
+  display: flex;
+  flex-direction: column;
+}
+#seccion-otros h3 {
+  font-size: 2rem;
+  font-family: Fredoka One;
+}
+#seccion-otros p {
+  font-size: 1.6rem;
+}
+
+.seccion-otros__imagen {
+  width: 70%;
+  border-radius: 25px;
+}
+
+.cards-otros-productos img {
+  width: 178.4px;
+  height: 178.4px;
+  border-radius: 20px;
+}
+
+.cards-otros-productos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .cards-otros-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 960px) {
+  .cards-otros-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

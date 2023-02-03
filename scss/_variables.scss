@@ -1,5 +1,7 @@
 
-
+$borde-carousel:lightpink;
+$size-titulos: 2rem;
+$size-parrafo: 1.6rem;
 
 
 @mixin hover-li{
@@ -9,3 +11,10 @@
     transition:.5s;
     border-radius: 20px;
 }
+/*mixin para las marcas*/
+@mixin size-imagen($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+    border-radius: 20px;
+}
+
