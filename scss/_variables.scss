@@ -1,1 +1,11 @@
 
+
+
+
+@mixin hover-li{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 15px;
+    transition:.5s;
+    border-radius: 20px;
+}

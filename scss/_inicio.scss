@@ -9,18 +9,20 @@
     }
 }
 
-header{
+#navbarSupportedContent{
     ul{
         li{
             a:hover{
-                background-color: #fff;
-                padding: 5px;
-                transition:.5s;
-                border-radius: 20px;
+                @include hover-li;
             }
+                
+            
         }
     }
 }
+
+
+
 
 
 /*editando index para varios dispositivos*/
@@ -91,7 +93,50 @@ header{
 #carouselExampleAutoplaying{
     width: 400px;
     max-width: 100%;
+ 
 }
+
+
+/*seccion 1*/
+
+#seccion1 p{
+    font-size: 1.5rem;
+    
+}
+
+/*footer*/
+
+span{
+
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+.fb{
+    background-color: rgb(40, 40, 181);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+
+.in{
+    background-color: rgba(255,0,179);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+
+.yt{
+    background-color: rgb(243, 8, 8);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+
+
+
+
+
 
 
 

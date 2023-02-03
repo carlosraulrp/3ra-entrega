@@ -29,9 +29,10 @@ img {
   font-size: 1.4rem;
 }
 
-header ul li a:hover {
-  background-color: #fff;
-  padding: 5px;
+#navbarSupportedContent ul li a:hover {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 15px;
   transition: 0.5s;
   border-radius: 20px;
 }
@@ -98,6 +99,38 @@ header ul li a:hover {
 #carouselExampleAutoplaying {
   width: 400px;
   max-width: 100%;
+}
+
+/*seccion 1*/
+#seccion1 p {
+  font-size: 1.5rem;
+}
+
+/*footer*/
+span {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.fb {
+  background-color: rgb(40, 40, 181);
+  padding: 8px;
+  border-radius: 50px;
+  color: white;
+}
+
+.in {
+  background-color: rgb(255, 0, 179);
+  padding: 8px;
+  border-radius: 50px;
+  color: white;
+}
+
+.yt {
+  background-color: rgb(243, 8, 8);
+  padding: 8px;
+  border-radius: 50px;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
