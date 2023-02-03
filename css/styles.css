@@ -235,5 +235,30 @@ span {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+.imagen-cuidados {
+  border: 2px solid #000;
+  border-radius: 20px;
+  width: 50rem;
+}
+
+.accordion-button {
+  font-size: 2rem;
+}
+
+.accordion-body {
+  font-size: 1.6rem;
+}
+
+.caja-imagen-cuidados {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+@media (min-width: 999px) {
+  .caja-imagen-cuidados {
+    flex-direction: row;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
