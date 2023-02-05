@@ -8,6 +8,18 @@
 .accordion-button{
     font-size: $size-titulos;
 }
+
+
+.accordion{
+    .accordion-item{
+        &:nth-child(even){
+            background-color: pink;
+        }
+    }
+}
+
+
+
 .accordion-body{
     font-size: $size-parrafo;
 }

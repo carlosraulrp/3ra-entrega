@@ -246,6 +246,10 @@ span {
   font-size: 2rem;
 }
 
+.accordion .accordion-item:nth-child(even) {
+  background-color: pink;
+}
+
 .accordion-body {
   font-size: 1.6rem;
 }
@@ -296,7 +300,12 @@ span {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
+  .padre-galeria__fotos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1400px) {
   .padre-galeria__fotos {
     grid-template-columns: repeat(4, 1fr);
   }
