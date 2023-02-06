@@ -4,6 +4,31 @@ $size-titulos: 2rem;
 $size-parrafo: 1.6rem;
 
 
+
+
+
+/*flex-column*/
+@mixin flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    
+
+}
+
+/*flex-row*/
+@mixin flex-row{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+    
+
+}
+
+
+
 @mixin hover-li{
     background-color: #000;
     color: #fff;

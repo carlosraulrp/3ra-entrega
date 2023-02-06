@@ -28,17 +28,14 @@
 /*editando index para varios dispositivos*/
 /*query mobile*/
 .caja-padre{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex-column;
     
 }
 
 @media (min-width: 1024px){
     .caja-padre{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        @include flex-row;
+        
         
         
     }
@@ -49,9 +46,7 @@
 }
 
 .caja-hijo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex-column;
     gap: 2rem;
 }
 
@@ -72,9 +67,10 @@
 
 .boton{
     
-    width:13rem ;
+    width:8rem ;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
+    box-sizing: content-box;
     background-color: #000;
     color: #fff;
     border-radius: 10px;
@@ -91,11 +87,11 @@
 /*carrusel*/
 
 #carouselExampleAutoplaying{
-    width: 400px;
+    width: 60rem;
     max-width: 100%;
-    background-color: lightslategray;
+    /*background-color: lightslategray;
     border: solid 3px $borde-carousel;
-    border-radius: 25px;
+    border-radius: 25px;*/
 
     img{
         border-radius: 40%;

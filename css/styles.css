@@ -1,3 +1,5 @@
+/*flex-column*/
+/*flex-row*/
 /*mixin para las marcas*/
 /*mixin para fotos estilo galerias*/
 * {
@@ -25,6 +27,11 @@ img {
   font-size: 3rem;
   font-weight: bold;
   letter-spacing: 2px;
+}
+
+.boton-inicio-padre {
+  display: grid;
+  place-content: center;
 }
 
 /*header*/
@@ -57,7 +64,6 @@ img {
   .caja-padre {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
   }
 }
 .imagen-hijo {
@@ -67,7 +73,7 @@ img {
 .caja-hijo {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   gap: 2rem;
 }
 
@@ -86,10 +92,11 @@ img {
   justify-content: center;
 }
 
-.boton {
-  width: 13rem;
+.boton, .boton-inicio {
+  width: 8rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
+  box-sizing: content-box;
   background-color: #000;
   color: #fff;
   border-radius: 10px;
@@ -97,7 +104,7 @@ img {
   text-decoration: none;
 }
 
-.boton:hover {
+.boton:hover, .boton-inicio:hover {
   background-color: #fff;
   border: 2px solid #000;
   color: #000;
@@ -105,11 +112,11 @@ img {
 
 /*carrusel*/
 #carouselExampleAutoplaying {
-  width: 400px;
+  width: 60rem;
   max-width: 100%;
-  background-color: lightslategray;
-  border: solid 3px lightpink;
-  border-radius: 25px;
+  /*background-color: lightslategray;
+  border: solid 3px $borde-carousel;
+  border-radius: 25px;*/
 }
 #carouselExampleAutoplaying img {
   border-radius: 40%;

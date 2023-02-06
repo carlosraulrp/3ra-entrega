@@ -29,3 +29,20 @@ img{
     font-weight: bold;
     letter-spacing: 2px;
 }
+
+
+.boton-inicio-padre{
+    display: grid;
+    place-content: center;
+    
+    
+}
+.boton-inicio{
+    @extend .boton;
+    
+
+    
+}
+
+
+
