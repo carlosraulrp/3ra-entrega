@@ -9,6 +9,10 @@
     }
 }
 /*Editando la barra de navegacion*/
+.navbar-nav{
+    @include flex-row;
+    gap: 2rem   ;
+}
 #navbarSupportedContent{
     ul{
         li{

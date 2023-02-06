@@ -44,6 +44,12 @@ img {
 }
 
 /*Editando la barra de navegacion*/
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
 #navbarSupportedContent ul li a:hover {
   background-color: #000;
   color: #fff;
