@@ -25,8 +25,7 @@
 }
 
 .caja-imagen-cuidados{
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     gap: 5rem;
 }
 
