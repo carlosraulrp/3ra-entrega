@@ -130,6 +130,27 @@
         font-size: $size-parrafo;
     }
 }
+
+
+/* banners*/
+
+.main-banner{
+    @include flex-column;
+}
+
+.contenedor-banner{
+    @include flex-column;
+    gap: 20px;
+}
+
+.banner-uno,
+.banner-dos,
+.banner-tres{
+    @include flex-column;
+    i{
+        font-size:5rem;
+    }
+}
     
     
 

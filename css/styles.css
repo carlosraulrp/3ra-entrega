@@ -29,6 +29,10 @@ img {
   letter-spacing: 2px;
 }
 
+p {
+  font-size: 1.6rem;
+}
+
 .boton-inicio-padre {
   display: grid;
   place-content: center;
@@ -170,6 +174,33 @@ span {
 /*seccion 1*/
 #seccion1 p {
   font-size: 1.6rem;
+}
+
+/* banners*/
+.main-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner-uno,
+.banner-dos,
+.banner-tres {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-uno i,
+.banner-dos i,
+.banner-tres i {
+  font-size: 5rem;
 }
 
 .imagen-barra img {
