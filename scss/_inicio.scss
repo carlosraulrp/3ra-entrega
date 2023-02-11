@@ -29,6 +29,9 @@
 
 
 
+
+
+
 /*editando index para varios dispositivos*/
 /*query mobile*/
 .caja-padre{
@@ -52,6 +55,21 @@
 .caja-hijo{
     @include flex-column;
     gap: 2rem;
+    /*Editando h1 de inicio*/
+    .titulo-inicio{
+        font-family: system-ui;
+        font-size: $letra-grande;
+        color: transparent;
+        font-weight: 600;
+        letter-spacing: -0.015em;
+        background-image: linear-gradient(
+            180deg,
+            $color-secundario,
+            $color-terciario
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
 }
 
 .caja-hijo__titulo{
@@ -116,34 +134,6 @@
     
 
 
-/*footer*/
-
-span{
-
-    font-size: 20px;
-    margin-left: 20px;
-    
-}
-.fb{
-    background-color: rgb(40, 40, 181);
-    padding: 8px;
-    border-radius: 50px;
-    color: white;
-}
-
-.in{
-    background-color: rgba(255,0,179);
-    padding: 8px;
-    border-radius: 50px;
-    color: white;
-}
-
-.yt{
-    background-color: rgb(243, 8, 8);
-    padding: 8px;
-    border-radius: 50px;
-    color: white;
-}
 
 
 

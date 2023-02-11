@@ -34,6 +34,33 @@ img {
   place-content: center;
 }
 
+/*footer*/
+span {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.fb {
+  background-color: rgb(40, 40, 181);
+  padding: 8px;
+  border-radius: 50px;
+  color: white;
+}
+
+.in {
+  background-color: rgb(255, 0, 179);
+  padding: 8px;
+  border-radius: 50px;
+  color: white;
+}
+
+.yt {
+  background-color: rgb(243, 8, 8);
+  padding: 8px;
+  border-radius: 50px;
+  color: white;
+}
+
 /*header*/
 .navbar-brand {
   font-size: 1.8rem;
@@ -47,6 +74,7 @@ img {
 .navbar-nav {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -70,6 +98,7 @@ img {
   .caja-padre {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 }
 .imagen-hijo {
@@ -81,6 +110,17 @@ img {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  /*Editando h1 de inicio*/
+}
+.caja-hijo .titulo-inicio {
+  font-family: system-ui;
+  font-size: 3rem;
+  color: transparent;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  background-image: linear-gradient(180deg, #726c81, #565164);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .caja-hijo__titulo {
@@ -130,33 +170,6 @@ img {
 /*seccion 1*/
 #seccion1 p {
   font-size: 1.6rem;
-}
-
-/*footer*/
-span {
-  font-size: 20px;
-  margin-left: 20px;
-}
-
-.fb {
-  background-color: rgb(40, 40, 181);
-  padding: 8px;
-  border-radius: 50px;
-  color: white;
-}
-
-.in {
-  background-color: rgb(255, 0, 179);
-  padding: 8px;
-  border-radius: 50px;
-  color: white;
-}
-
-.yt {
-  background-color: rgb(243, 8, 8);
-  padding: 8px;
-  border-radius: 50px;
-  color: white;
 }
 
 .imagen-barra img {
