@@ -147,8 +147,15 @@
 .banner-dos,
 .banner-tres{
     @include flex-column;
-    i{
+    i,
+    iconify-icon{
         font-size:5rem;
+    }
+}
+
+@media (min-width:768px){
+    .contenedor-banner{
+        @include flex-row;
     }
 }
     

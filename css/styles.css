@@ -198,11 +198,21 @@ span {
   align-items: center;
 }
 .banner-uno i,
+.banner-uno iconify-icon,
 .banner-dos i,
-.banner-tres i {
+.banner-dos iconify-icon,
+.banner-tres i,
+.banner-tres iconify-icon {
   font-size: 5rem;
 }
 
+@media (min-width: 768px) {
+  .contenedor-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
 .imagen-barra img {
   width: 100%;
   height: 200px;
