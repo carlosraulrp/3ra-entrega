@@ -3,15 +3,22 @@
     font-size: 1.8rem;
 }
 
-.nav-item{
-    a{
+
+
+
+
+/*Editando la barra de navegacion*/
+.navbar-nav{
+    @include flex-column;
+    align-items: start;
+    gap: 1rem;
+
+    .nav-item{
+    
+        a{
         font-size: 1.4rem;
     }
 }
-/*Editando la barra de navegacion*/
-.navbar-nav{
-    @include flex-row;
-    gap: 2rem   ;
 }
 #navbarSupportedContent{
     ul{
@@ -25,6 +32,11 @@
     }
 }
 
+.btn {
+    @extend .boton;
+        
+    
+}
 
 
 
@@ -34,6 +46,22 @@
 
 /*editando index para varios dispositivos*/
 /*query mobile*/
+
+
+@media (min-width:1200px){
+    .navbar-nav{
+        gap: 2rem;
+    
+        .nav-item{
+        
+            a{
+            font-size: 1.6rem;
+        }
+    }
+    }
+}
+
+
 .caja-padre{
     @include flex-column;
     
