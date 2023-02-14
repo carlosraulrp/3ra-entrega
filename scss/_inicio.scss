@@ -1,42 +1,4 @@
-/*header*/
-.navbar-brand{
-    font-size: 1.8rem;
-}
 
-
-
-
-
-/*Editando la barra de navegacion*/
-.navbar-nav{
-    @include flex-column;
-    align-items: start;
-    gap: 1rem;
-
-    .nav-item{
-    
-        a{
-        font-size: 1.4rem;
-    }
-}
-}
-#navbarSupportedContent{
-    ul{
-        li{
-            a:hover{
-                @include hover-li;
-            }
-                
-            
-        }
-    }
-}
-
-.btn {
-    @extend .boton;
-        
-    
-}
 
 
 
