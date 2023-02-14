@@ -321,7 +321,7 @@ span {
 }
 
 .accordion .accordion-item:nth-child(even) {
-  background-color: pink;
+  background-color: #d1e5f8;
 }
 
 .accordion-body {
