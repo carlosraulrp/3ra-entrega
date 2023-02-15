@@ -68,6 +68,10 @@ p{
     }
 }
 
+span{
+    font-size: 20px;
+}
+
 
 
 .btn {
@@ -95,12 +99,16 @@ p{
 
 /*footer*/
 
-span{
+.pie__redes{
+    span{
 
-    font-size: 20px;
-    margin-left: 20px;
-    
+        font-size: 20px;
+        margin-left: 20px;
+        
+    }
 }
+
+
 .fb{
     background-color: rgb(40, 40, 181);
     padding: 8px;

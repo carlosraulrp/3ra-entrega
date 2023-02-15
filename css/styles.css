@@ -58,13 +58,17 @@ p {
   border-radius: 20px;
 }
 
+span {
+  font-size: 20px;
+}
+
 .boton-inicio-padre {
   display: grid;
   place-content: center;
 }
 
 /*footer*/
-span {
+.pie__redes span {
   font-size: 20px;
   margin-left: 20px;
 }
@@ -260,7 +264,7 @@ span {
   font-size: 1.6rem;
 }
 .seccion-alimentos li {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .caja-alimentos-padre {
